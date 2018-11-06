@@ -1,0 +1,42 @@
+STEPS TO UPDATE YOUR GIT REPO AFTER EACH UPDATE:
+
+1) Make whatever chanegs you want in your code.
+
+2) Open Git Bash, cd into your project folder
+	
+	-or-
+
+2) Open your project folder in File explorer -> Right click -> Git Bash Here 
+
+3) ADD all your changes to your local repo (The offline one) 
+	command: git add .
+
+4) COMMIT your changes to the global repo (The online one)
+	command: git commit -m "Commit message"
+
+Tip: Keep the commit message relevant to the changes you're about to commit 
+Ex: If your add a new Activity, the commit message should be "Added ___Activity"
+
+5) PUSH your changes to the global repo (finalization) 
+	command: git push
+
+Enter your Login details. 
+Sometimes the GUI login panel which pops up won't work. 
+So just cancel it and enter the user name in the Bash followed
+password in the GUI
+
+6) To pull changes (On a remote/ teammate's computer)
+
+First the other person must be registered as a contributor to your repo
+This is done via Github. 
+
+The other person has to first clone the project ti their system. 
+And then follow steps 1-5 to pus their own changes 
+
+To fetch the latest version from GitHub:
+	command: git pull
+
+Always type git pull when you reopen the project so you  know you have 
+the latest version and it includes all the changes your teammate(s) have made.
+
+
